@@ -74,6 +74,20 @@ nav a:hover {
 .button:hover {
     background-color: #1d4ed8;
 }
+.profile-pic {
+    width: 160px;
+    height: 160px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    margin-bottom: 20px;
+
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
 section:not(.home) {
     max-width: 900px;
     margin: auto;
